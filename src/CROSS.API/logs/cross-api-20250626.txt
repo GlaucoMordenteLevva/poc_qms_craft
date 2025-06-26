@@ -1,0 +1,11 @@
+2025-06-26 14:18:35.519 -03:00 [INF] Database connection verified successfully
+2025-06-26 14:18:35.567 -03:00 [INF] CROSS API starting up...
+2025-06-26 14:18:38.148 -03:00 [INF] HTTP GET /swagger responded 404 in 0.8063 ms
+2025-06-26 14:20:01.085 -03:00 [INF] HTTP GET /api/Tax/list responded 400 in 56.8865 ms
+2025-06-26 14:20:51.493 -03:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-06-26 14:20:52.710 -03:00 [INF] Executed DbCommand (30ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [h].[IdTaxa] AS [Id], [h].[NmTaxa] AS [Value]
+FROM [HCGS3001] AS [h]
+WHERE [h].[Ativo] = N'S'
+ORDER BY [h].[NmTaxa]
+2025-06-26 14:20:52.833 -03:00 [INF] HTTP GET /api/Tax/search-by-class-filter responded 200 in 1929.9053 ms
