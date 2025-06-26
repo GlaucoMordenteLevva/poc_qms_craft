@@ -56,7 +56,7 @@ CROSS.API/
 - **Polly**: Políticas de resiliência
 - **xUnit**: Framework de testes
 
-- **Mais informções**: "/docs/INFORMACOES_ADICIONAIS_TECNICAS-cross-api.md"
+- **Mais informações**: "/docs/INFORMACOES_ADICIONAIS_TECNICAS-cross-api.md"
 
 ## Como Executar
 
@@ -103,7 +103,7 @@ CROSS.API/
 - `GET /api/city/proposal-origins` - Cidades origem para proposta
 - `GET /api/city/proposal-destinations` - Cidades destino para proposta
 
-- **Mais informções**: "/docs/INFORMACOES_DETALHADAS_SOLUCAO-cross-api.md"
+- **Mais informações**: "/docs/INFORMACOES_DETALHADAS_SOLUCAO-cross-api.md"
 
 
 ## Arquitetura
@@ -123,7 +123,7 @@ Todos os endpoints utilizam o atributo `[ValidateSession]` que:
 - Retorna 401 para sessões inválidas
 - Suporte a retorno de lista vazia (configurável)
 
-- **Mais informções**: "/docs/GUIA-AUTENTICACAO.md"
+- **Mais informações**: "/docs/GUIA-AUTENTICACAO.md"
 
 ## Banco de Dados
 
