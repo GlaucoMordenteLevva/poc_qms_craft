@@ -32,3 +32,5 @@ FROM [HCGS3001] AS [h]
 WHERE [h].[Ativo] = N'S'
 ORDER BY [h].[NmTaxa]
 2025-06-26 15:50:59.180 -03:00 [INF] HTTP GET /api/Tax/all-with-classes responded 200 in 348.5577 ms
+2025-06-26 16:50:20.630 -03:00 [INF] Database connection verified successfully
+2025-06-26 16:50:20.688 -03:00 [INF] CROSS API starting up...

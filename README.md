@@ -83,6 +83,13 @@ CROSS.API/
 
 ## Endpoints Planejados
 
+### AuthController (4 endpoints)
+- `POST /api/auth/login` - Inicia uma sessão
+- `POST /api/auth/logout` - Finaliza uma sessão
+- `GET /api/auth/validate-session` - Retorna dados de uma sessão
+- `POST /api/auth/renew-session` - Renova a validade de uma sessão
+
+
 ### TaxController (9 endpoints)
 - `GET /api/tax/selected-classes/{taxId}` - Classes de taxa selecionadas
 - `GET /api/tax/all-classes` - Todas as classes de taxa
