@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\GlaucoMordente\\Downloads\\CROSS-API-COMPLETA\\CROSS.API\\src\\CROSS.Shared\\CROSS.Shared.csproj",
+      "projectUniqueName": "C:\\Users\\GlaucoMordente\\source\\repos\\GlaucoMordenteLevva\\poc_qms_craft\\src\\CROSS.Shared\\CROSS.Shared.csproj",
       "projectName": "CROSS.Shared",
-      "projectPath": "C:\\Users\\GlaucoMordente\\Downloads\\CROSS-API-COMPLETA\\CROSS.API\\src\\CROSS.Shared\\CROSS.Shared.csproj",
+      "projectPath": "C:\\Users\\GlaucoMordente\\source\\repos\\GlaucoMordenteLevva\\poc_qms_craft\\src\\CROSS.Shared\\CROSS.Shared.csproj",
       "packagesPath": "C:\\Users\\GlaucoMordente\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\GlaucoMordente\\Downloads\\CROSS-API-COMPLETA\\CROSS.API\\src\\CROSS.Shared\\obj\\",
+      "outputPath": "C:\\Users\\GlaucoMordente\\source\\repos\\GlaucoMordenteLevva\\poc_qms_craft\\src\\CROSS.Shared\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wni0CgbfbLo=",
+  "dgSpecHash": "JguOFWT5Aa0=",
   "success": true,
-  "projectFilePath": "C:\\Users\\GlaucoMordente\\Downloads\\CROSS-API-COMPLETA\\CROSS.API\\tests\\CROSS.API.Tests\\CROSS.API.Tests.csproj",
+  "projectFilePath": "C:\\Users\\GlaucoMordente\\source\\repos\\GlaucoMordenteLevva\\poc_qms_craft\\tests\\CROSS.API.Tests\\CROSS.API.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\GlaucoMordente\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
     "C:\\Users\\GlaucoMordente\\.nuget\\packages\\microsoft.codecoverage\\17.8.0\\microsoft.codecoverage.17.8.0.nupkg.sha512",

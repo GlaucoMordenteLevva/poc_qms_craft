@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CROSS.Shared")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ac5f7bcc996ad37c315401a7229ee79edd4b5d33")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cde962d6d667a057d00ad4a1a170931d56b95133")]
 [assembly: System.Reflection.AssemblyProductAttribute("CROSS.Shared")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CROSS.Shared")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -5,7 +5,7 @@ using Microsoft.OpenApi.Models;
 using Serilog;
 using System.Text;
 using FluentValidation;
-//using FluentValidation.AspNetCore;
+using FluentValidation.AspNetCore;
 using Polly;
 using CROSS.Infrastructure.Data;
 using CROSS.Application.Interfaces;
@@ -33,15 +33,8 @@ builder.Services.AddDbContext<CrossDbContext>(options =>
     options.EnableDetailedErrors(builder.Environment.IsDevelopment());
 });
 
-// Configuração de políticas de resiliência com Polly
-//builder.Services.AddHttpClient("DefaultClient")
-//    .AddPolicyHandler(Policy.WrapAsync(
-//        Policy.Handle<HttpRequestException>()
-//            .WaitAndRetryAsync(3, retryAttempt => 
-//                TimeSpan.FromSeconds(Math.Pow(2, retryAttempt))),
-//        Policy.Handle<HttpRequestException>()
-//            .CircuitBreakerAsync(3, TimeSpan.FromSeconds(30))
-//    ));
+// Configuração de HttpClient básico
+builder.Services.AddHttpClient("DefaultClient");
 
 // Configuração de CORS
 builder.Services.AddCors(options =>
@@ -139,8 +132,8 @@ builder.Services.AddScoped<ICityService, CityService>();
 builder.Services.AddAutoMapper(typeof(MappingProfile));
 
 // Configuração do FluentValidation
-//builder.Services.AddFluentValidationAutoValidation();
-//builder.Services.AddFluentValidationClientsideAdapters();
+builder.Services.AddFluentValidationAutoValidation();
+builder.Services.AddFluentValidationClientsideAdapters();
 builder.Services.AddValidatorsFromAssemblyContaining<CitySearchRequestValidator>();
 
 // Configuração de Health Checks
@@ -163,13 +156,28 @@ builder.Services.AddApiVersioning(options =>
 var app = builder.Build();
 
 // Configuração do pipeline de middleware
-if (app.Environment.IsDevelopment())
+// Swagger habilitado em desenvolvimento e produção (configurável)
+var enableSwagger = builder.Configuration.GetValue<bool>("EnableSwagger", app.Environment.IsDevelopment());
+
+if (enableSwagger)
 {
     app.UseSwagger();
     app.UseSwaggerUI(c =>
     {
         c.SwaggerEndpoint("/swagger/v1/swagger.json", "CROSS API v1");
-        c.RoutePrefix = string.Empty; // Swagger na raiz
+        c.RoutePrefix = "swagger"; // Swagger em /swagger/index.html
+        c.DocumentTitle = "CROSS API - Documentação";
+        c.DefaultModelsExpandDepth(-1); // Ocultar modelos por padrão
+        c.DisplayRequestDuration();
+        c.EnableDeepLinking();
+        c.EnableFilter();
+        c.ShowExtensions();
+        
+        // Configurações adicionais para produção
+        if (!app.Environment.IsDevelopment())
+        {
+            c.SupportedSubmitMethods(); // Desabilitar botões "Try it out" em produção
+        }
     });
 }
 

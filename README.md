@@ -56,6 +56,8 @@ CROSS.API/
 - **Polly**: Políticas de resiliência
 - **xUnit**: Framework de testes
 
+- **Mais informções**: "/docs/INFORMACOES_ADICIONAIS_TECNICAS-cross-api.md"
+
 ## Como Executar
 
 ### Pré-requisitos
@@ -101,24 +103,8 @@ CROSS.API/
 - `GET /api/city/proposal-origins` - Cidades origem para proposta
 - `GET /api/city/proposal-destinations` - Cidades destino para proposta
 
-## Status do Desenvolvimento
+- **Mais informções**: "/docs/INFORMACOES_DETALHADAS_SOLUCAO-cross-api.md"
 
-### ✅ Concluído (Fases 1-6)
-- Análise e estruturação do projeto
-- Estrutura base .NET 8.0
-- Entidades de domínio e DTOs
-- Entity Framework e DbContext
-- Serviços de validação de sessão
-- Serviços de negócio (Tax e City)
-
-### 🚧 Próximas Fases
-- Controllers TaxController e CityController
-- Configuração de injeção de dependência
-- Validadores FluentValidation e AutoMapper
-- Logging, Swagger e políticas de resiliência
-- Scripts SQL para estrutura do banco
-- Testes unitários
-- Documentação final
 
 ## Arquitetura
 
@@ -137,6 +123,8 @@ Todos os endpoints utilizam o atributo `[ValidateSession]` que:
 - Retorna 401 para sessões inválidas
 - Suporte a retorno de lista vazia (configurável)
 
+- **Mais informções**: "/docs/GUIA-AUTENTICACAO.md"
+
 ## Banco de Dados
 
 Estrutura otimizada para SQL Server com:
@@ -144,6 +132,8 @@ Estrutura otimizada para SQL Server com:
 - Relacionamentos bem definidos
 - Constraints de integridade
 - Nomes de tabela compatíveis com sistema legado
+
+- Scripts iniciais de banco a serem executados em ordem serão encontrados em "/scripts"
 
 ## Contato
 

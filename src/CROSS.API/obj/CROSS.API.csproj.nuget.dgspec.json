@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\GlaucoMordente\\Downloads\\CROSS-API-COMPLETA\\CROSS.API\\src\\CROSS.API\\CROSS.API.csproj": {}
+    "C:\\Users\\GlaucoMordente\\source\\repos\\GlaucoMordenteLevva\\poc_qms_craft\\src\\CROSS.API\\CROSS.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\GlaucoMordente\\Downloads\\CROSS-API-COMPLETA\\CROSS.API\\src\\CROSS.API\\CROSS.API.csproj": {
+    "C:\\Users\\GlaucoMordente\\source\\repos\\GlaucoMordenteLevva\\poc_qms_craft\\src\\CROSS.API\\CROSS.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\GlaucoMordente\\Downloads\\CROSS-API-COMPLETA\\CROSS.API\\src\\CROSS.API\\CROSS.API.csproj",
+        "projectUniqueName": "C:\\Users\\GlaucoMordente\\source\\repos\\GlaucoMordenteLevva\\poc_qms_craft\\src\\CROSS.API\\CROSS.API.csproj",
         "projectName": "CROSS.API",
-        "projectPath": "C:\\Users\\GlaucoMordente\\Downloads\\CROSS-API-COMPLETA\\CROSS.API\\src\\CROSS.API\\CROSS.API.csproj",
+        "projectPath": "C:\\Users\\GlaucoMordente\\source\\repos\\GlaucoMordenteLevva\\poc_qms_craft\\src\\CROSS.API\\CROSS.API.csproj",
         "packagesPath": "C:\\Users\\GlaucoMordente\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\GlaucoMordente\\Downloads\\CROSS-API-COMPLETA\\CROSS.API\\src\\CROSS.API\\obj\\",
+        "outputPath": "C:\\Users\\GlaucoMordente\\source\\repos\\GlaucoMordenteLevva\\poc_qms_craft\\src\\CROSS.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,14 +32,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\GlaucoMordente\\Downloads\\CROSS-API-COMPLETA\\CROSS.API\\src\\CROSS.Application\\CROSS.Application.csproj": {
-                "projectPath": "C:\\Users\\GlaucoMordente\\Downloads\\CROSS-API-COMPLETA\\CROSS.API\\src\\CROSS.Application\\CROSS.Application.csproj"
+              "C:\\Users\\GlaucoMordente\\source\\repos\\GlaucoMordenteLevva\\poc_qms_craft\\src\\CROSS.Application\\CROSS.Application.csproj": {
+                "projectPath": "C:\\Users\\GlaucoMordente\\source\\repos\\GlaucoMordenteLevva\\poc_qms_craft\\src\\CROSS.Application\\CROSS.Application.csproj"
               },
-              "C:\\Users\\GlaucoMordente\\Downloads\\CROSS-API-COMPLETA\\CROSS.API\\src\\CROSS.Infrastructure\\CROSS.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\GlaucoMordente\\Downloads\\CROSS-API-COMPLETA\\CROSS.API\\src\\CROSS.Infrastructure\\CROSS.Infrastructure.csproj"
+              "C:\\Users\\GlaucoMordente\\source\\repos\\GlaucoMordenteLevva\\poc_qms_craft\\src\\CROSS.Infrastructure\\CROSS.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\GlaucoMordente\\source\\repos\\GlaucoMordenteLevva\\poc_qms_craft\\src\\CROSS.Infrastructure\\CROSS.Infrastructure.csproj"
               },
-              "C:\\Users\\GlaucoMordente\\Downloads\\CROSS-API-COMPLETA\\CROSS.API\\src\\CROSS.Shared\\CROSS.Shared.csproj": {
-                "projectPath": "C:\\Users\\GlaucoMordente\\Downloads\\CROSS-API-COMPLETA\\CROSS.API\\src\\CROSS.Shared\\CROSS.Shared.csproj"
+              "C:\\Users\\GlaucoMordente\\source\\repos\\GlaucoMordenteLevva\\poc_qms_craft\\src\\CROSS.Shared\\CROSS.Shared.csproj": {
+                "projectPath": "C:\\Users\\GlaucoMordente\\source\\repos\\GlaucoMordenteLevva\\poc_qms_craft\\src\\CROSS.Shared\\CROSS.Shared.csproj"
               }
             }
           }
@@ -68,6 +68,10 @@
               "target": "Package",
               "version": "[12.0.1, )"
             },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.1, )"
+            },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
               "version": "[8.0.11, )"
@@ -83,6 +87,10 @@
             "Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.11, )"
+            },
+            "Microsoft.Extensions.Http.Polly": {
+              "target": "Package",
+              "version": "[9.0.6, )"
             },
             "Polly": {
               "target": "Package",
@@ -120,14 +128,14 @@
         }
       }
     },
-    "C:\\Users\\GlaucoMordente\\Downloads\\CROSS-API-COMPLETA\\CROSS.API\\src\\CROSS.Application\\CROSS.Application.csproj": {
+    "C:\\Users\\GlaucoMordente\\source\\repos\\GlaucoMordenteLevva\\poc_qms_craft\\src\\CROSS.Application\\CROSS.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\GlaucoMordente\\Downloads\\CROSS-API-COMPLETA\\CROSS.API\\src\\CROSS.Application\\CROSS.Application.csproj",
+        "projectUniqueName": "C:\\Users\\GlaucoMordente\\source\\repos\\GlaucoMordenteLevva\\poc_qms_craft\\src\\CROSS.Application\\CROSS.Application.csproj",
         "projectName": "CROSS.Application",
-        "projectPath": "C:\\Users\\GlaucoMordente\\Downloads\\CROSS-API-COMPLETA\\CROSS.API\\src\\CROSS.Application\\CROSS.Application.csproj",
+        "projectPath": "C:\\Users\\GlaucoMordente\\source\\repos\\GlaucoMordenteLevva\\poc_qms_craft\\src\\CROSS.Application\\CROSS.Application.csproj",
         "packagesPath": "C:\\Users\\GlaucoMordente\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\GlaucoMordente\\Downloads\\CROSS-API-COMPLETA\\CROSS.API\\src\\CROSS.Application\\obj\\",
+        "outputPath": "C:\\Users\\GlaucoMordente\\source\\repos\\GlaucoMordenteLevva\\poc_qms_craft\\src\\CROSS.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -148,11 +156,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\GlaucoMordente\\Downloads\\CROSS-API-COMPLETA\\CROSS.API\\src\\CROSS.Domain\\CROSS.Domain.csproj": {
-                "projectPath": "C:\\Users\\GlaucoMordente\\Downloads\\CROSS-API-COMPLETA\\CROSS.API\\src\\CROSS.Domain\\CROSS.Domain.csproj"
+              "C:\\Users\\GlaucoMordente\\source\\repos\\GlaucoMordenteLevva\\poc_qms_craft\\src\\CROSS.Domain\\CROSS.Domain.csproj": {
+                "projectPath": "C:\\Users\\GlaucoMordente\\source\\repos\\GlaucoMordenteLevva\\poc_qms_craft\\src\\CROSS.Domain\\CROSS.Domain.csproj"
               },
-              "C:\\Users\\GlaucoMordente\\Downloads\\CROSS-API-COMPLETA\\CROSS.API\\src\\CROSS.Shared\\CROSS.Shared.csproj": {
-                "projectPath": "C:\\Users\\GlaucoMordente\\Downloads\\CROSS-API-COMPLETA\\CROSS.API\\src\\CROSS.Shared\\CROSS.Shared.csproj"
+              "C:\\Users\\GlaucoMordente\\source\\repos\\GlaucoMordenteLevva\\poc_qms_craft\\src\\CROSS.Shared\\CROSS.Shared.csproj": {
+                "projectPath": "C:\\Users\\GlaucoMordente\\source\\repos\\GlaucoMordenteLevva\\poc_qms_craft\\src\\CROSS.Shared\\CROSS.Shared.csproj"
               }
             }
           }
@@ -210,14 +218,14 @@
         }
       }
     },
-    "C:\\Users\\GlaucoMordente\\Downloads\\CROSS-API-COMPLETA\\CROSS.API\\src\\CROSS.Domain\\CROSS.Domain.csproj": {
+    "C:\\Users\\GlaucoMordente\\source\\repos\\GlaucoMordenteLevva\\poc_qms_craft\\src\\CROSS.Domain\\CROSS.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\GlaucoMordente\\Downloads\\CROSS-API-COMPLETA\\CROSS.API\\src\\CROSS.Domain\\CROSS.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\GlaucoMordente\\source\\repos\\GlaucoMordenteLevva\\poc_qms_craft\\src\\CROSS.Domain\\CROSS.Domain.csproj",
         "projectName": "CROSS.Domain",
-        "projectPath": "C:\\Users\\GlaucoMordente\\Downloads\\CROSS-API-COMPLETA\\CROSS.API\\src\\CROSS.Domain\\CROSS.Domain.csproj",
+        "projectPath": "C:\\Users\\GlaucoMordente\\source\\repos\\GlaucoMordenteLevva\\poc_qms_craft\\src\\CROSS.Domain\\CROSS.Domain.csproj",
         "packagesPath": "C:\\Users\\GlaucoMordente\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\GlaucoMordente\\Downloads\\CROSS-API-COMPLETA\\CROSS.API\\src\\CROSS.Domain\\obj\\",
+        "outputPath": "C:\\Users\\GlaucoMordente\\source\\repos\\GlaucoMordenteLevva\\poc_qms_craft\\src\\CROSS.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -275,14 +283,14 @@
         }
       }
     },
-    "C:\\Users\\GlaucoMordente\\Downloads\\CROSS-API-COMPLETA\\CROSS.API\\src\\CROSS.Infrastructure\\CROSS.Infrastructure.csproj": {
+    "C:\\Users\\GlaucoMordente\\source\\repos\\GlaucoMordenteLevva\\poc_qms_craft\\src\\CROSS.Infrastructure\\CROSS.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\GlaucoMordente\\Downloads\\CROSS-API-COMPLETA\\CROSS.API\\src\\CROSS.Infrastructure\\CROSS.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\GlaucoMordente\\source\\repos\\GlaucoMordenteLevva\\poc_qms_craft\\src\\CROSS.Infrastructure\\CROSS.Infrastructure.csproj",
         "projectName": "CROSS.Infrastructure",
-        "projectPath": "C:\\Users\\GlaucoMordente\\Downloads\\CROSS-API-COMPLETA\\CROSS.API\\src\\CROSS.Infrastructure\\CROSS.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\GlaucoMordente\\source\\repos\\GlaucoMordenteLevva\\poc_qms_craft\\src\\CROSS.Infrastructure\\CROSS.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\GlaucoMordente\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\GlaucoMordente\\Downloads\\CROSS-API-COMPLETA\\CROSS.API\\src\\CROSS.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\GlaucoMordente\\source\\repos\\GlaucoMordenteLevva\\poc_qms_craft\\src\\CROSS.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -303,14 +311,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\GlaucoMordente\\Downloads\\CROSS-API-COMPLETA\\CROSS.API\\src\\CROSS.Application\\CROSS.Application.csproj": {
-                "projectPath": "C:\\Users\\GlaucoMordente\\Downloads\\CROSS-API-COMPLETA\\CROSS.API\\src\\CROSS.Application\\CROSS.Application.csproj"
+              "C:\\Users\\GlaucoMordente\\source\\repos\\GlaucoMordenteLevva\\poc_qms_craft\\src\\CROSS.Application\\CROSS.Application.csproj": {
+                "projectPath": "C:\\Users\\GlaucoMordente\\source\\repos\\GlaucoMordenteLevva\\poc_qms_craft\\src\\CROSS.Application\\CROSS.Application.csproj"
               },
-              "C:\\Users\\GlaucoMordente\\Downloads\\CROSS-API-COMPLETA\\CROSS.API\\src\\CROSS.Domain\\CROSS.Domain.csproj": {
-                "projectPath": "C:\\Users\\GlaucoMordente\\Downloads\\CROSS-API-COMPLETA\\CROSS.API\\src\\CROSS.Domain\\CROSS.Domain.csproj"
+              "C:\\Users\\GlaucoMordente\\source\\repos\\GlaucoMordenteLevva\\poc_qms_craft\\src\\CROSS.Domain\\CROSS.Domain.csproj": {
+                "projectPath": "C:\\Users\\GlaucoMordente\\source\\repos\\GlaucoMordenteLevva\\poc_qms_craft\\src\\CROSS.Domain\\CROSS.Domain.csproj"
               },
-              "C:\\Users\\GlaucoMordente\\Downloads\\CROSS-API-COMPLETA\\CROSS.API\\src\\CROSS.Shared\\CROSS.Shared.csproj": {
-                "projectPath": "C:\\Users\\GlaucoMordente\\Downloads\\CROSS-API-COMPLETA\\CROSS.API\\src\\CROSS.Shared\\CROSS.Shared.csproj"
+              "C:\\Users\\GlaucoMordente\\source\\repos\\GlaucoMordenteLevva\\poc_qms_craft\\src\\CROSS.Shared\\CROSS.Shared.csproj": {
+                "projectPath": "C:\\Users\\GlaucoMordente\\source\\repos\\GlaucoMordenteLevva\\poc_qms_craft\\src\\CROSS.Shared\\CROSS.Shared.csproj"
               }
             }
           }
@@ -368,14 +376,14 @@
         }
       }
     },
-    "C:\\Users\\GlaucoMordente\\Downloads\\CROSS-API-COMPLETA\\CROSS.API\\src\\CROSS.Shared\\CROSS.Shared.csproj": {
+    "C:\\Users\\GlaucoMordente\\source\\repos\\GlaucoMordenteLevva\\poc_qms_craft\\src\\CROSS.Shared\\CROSS.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\GlaucoMordente\\Downloads\\CROSS-API-COMPLETA\\CROSS.API\\src\\CROSS.Shared\\CROSS.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\GlaucoMordente\\source\\repos\\GlaucoMordenteLevva\\poc_qms_craft\\src\\CROSS.Shared\\CROSS.Shared.csproj",
         "projectName": "CROSS.Shared",
-        "projectPath": "C:\\Users\\GlaucoMordente\\Downloads\\CROSS-API-COMPLETA\\CROSS.API\\src\\CROSS.Shared\\CROSS.Shared.csproj",
+        "projectPath": "C:\\Users\\GlaucoMordente\\source\\repos\\GlaucoMordenteLevva\\poc_qms_craft\\src\\CROSS.Shared\\CROSS.Shared.csproj",
         "packagesPath": "C:\\Users\\GlaucoMordente\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\GlaucoMordente\\Downloads\\CROSS-API-COMPLETA\\CROSS.API\\src\\CROSS.Shared\\obj\\",
+        "outputPath": "C:\\Users\\GlaucoMordente\\source\\repos\\GlaucoMordenteLevva\\poc_qms_craft\\src\\CROSS.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

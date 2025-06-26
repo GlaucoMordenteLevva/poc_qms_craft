@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HvWDwuZOiXM=",
+  "dgSpecHash": "Kuw0XLQg8iY=",
   "success": true,
-  "projectFilePath": "C:\\Users\\GlaucoMordente\\Downloads\\CROSS-API-COMPLETA\\CROSS.API\\src\\CROSS.Infrastructure\\CROSS.Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\GlaucoMordente\\source\\repos\\GlaucoMordenteLevva\\poc_qms_craft\\src\\CROSS.Infrastructure\\CROSS.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\GlaucoMordente\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\GlaucoMordente\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",

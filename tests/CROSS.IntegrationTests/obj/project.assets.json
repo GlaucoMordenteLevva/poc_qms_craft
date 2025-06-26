@@ -5514,11 +5514,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\GlaucoMordente\\Downloads\\CROSS-API-COMPLETA\\CROSS.API\\tests\\CROSS.IntegrationTests\\CROSS.IntegrationTests.csproj",
+      "projectUniqueName": "C:\\Users\\GlaucoMordente\\source\\repos\\GlaucoMordenteLevva\\poc_qms_craft\\tests\\CROSS.IntegrationTests\\CROSS.IntegrationTests.csproj",
       "projectName": "CROSS.IntegrationTests",
-      "projectPath": "C:\\Users\\GlaucoMordente\\Downloads\\CROSS-API-COMPLETA\\CROSS.API\\tests\\CROSS.IntegrationTests\\CROSS.IntegrationTests.csproj",
+      "projectPath": "C:\\Users\\GlaucoMordente\\source\\repos\\GlaucoMordenteLevva\\poc_qms_craft\\tests\\CROSS.IntegrationTests\\CROSS.IntegrationTests.csproj",
       "packagesPath": "C:\\Users\\GlaucoMordente\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\GlaucoMordente\\Downloads\\CROSS-API-COMPLETA\\CROSS.API\\tests\\CROSS.IntegrationTests\\obj\\",
+      "outputPath": "C:\\Users\\GlaucoMordente\\source\\repos\\GlaucoMordenteLevva\\poc_qms_craft\\tests\\CROSS.IntegrationTests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
